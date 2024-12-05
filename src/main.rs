@@ -3,6 +3,7 @@ mod day02;
 mod day03;
 mod day03_alt;
 mod day04;
+mod day05;
 mod utils;
 
 fn main() {
@@ -15,6 +16,8 @@ fn main() {
     //day03::solve();
     //println!("Day 3 Parser Solution:");
     //day03_alt::solve();
-    println!("Day 4:");
-    day04::solve();
+    //println!("Day 4:");
+    //day04::solve();
+    println!("Day 5:");
+    day05::solve();
 }
