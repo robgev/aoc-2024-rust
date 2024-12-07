@@ -4,6 +4,7 @@ mod day03;
 mod day03_alt;
 mod day04;
 mod day05;
+mod day06;
 mod utils;
 
 fn main() {
@@ -18,6 +19,8 @@ fn main() {
     //day03_alt::solve();
     //println!("Day 4:");
     //day04::solve();
-    println!("Day 5:");
-    day05::solve();
+    //println!("Day 5:");
+    //day05::solve();
+    println!("Day 6:");
+    day06::solve();
 }
