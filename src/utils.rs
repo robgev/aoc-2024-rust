@@ -23,3 +23,7 @@ pub fn find_start_loc(map: &Vec<Vec<char>>, symbol: char) -> (i32, i32) {
 
     return (0, 0);
 }
+
+pub fn is_in_bounds(sizes: (usize, usize), index: (i32, i32)) -> bool {
+    0 <= index.0 && index.0 < sizes.0 as i32 && 0 <= index.1 && index.1 < sizes.1 as i32
+}
