@@ -1,2 +1,3 @@
 /target
 src/input.txt
+src/template.rs
