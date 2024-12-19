@@ -28,7 +28,7 @@ pub fn is_in_bounds(sizes: (usize, usize), index: (i32, i32)) -> bool {
     0 <= index.0 && index.0 < sizes.0 as i32 && 0 <= index.1 && index.1 < sizes.1 as i32
 }
 
-pub fn print_grid(map: Vec<Vec<char>>, title: &str) {
+pub fn print_grid(map: &Vec<Vec<char>>, title: &str) {
     println!("{}", title);
     map.iter()
         .for_each(|line| println!("{}", line.iter().collect::<String>()));
