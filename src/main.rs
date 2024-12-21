@@ -1,20 +1,21 @@
-mod day01;
-mod day02;
-mod day03;
-mod day03_alt;
-mod day04;
-mod day05;
-mod day06;
-mod day07;
-mod day08;
-mod day09;
-mod day10;
-mod day11;
-mod day12;
-mod day13;
-mod day14;
-mod day15;
-mod day16;
+//mod day01;
+//mod day02;
+//mod day03;
+//mod day03_alt;
+//mod day04;
+//mod day05;
+//mod day06;
+//mod day07;
+//mod day08;
+//mod day09;
+//mod day10;
+//mod day11;
+//mod day12;
+//mod day13;
+//mod day14;
+//mod day15;
+//mod day16;
+mod day17;
 mod utils;
 
 fn main() {
@@ -51,6 +52,8 @@ fn main() {
     //day14::solve();
     //println!("Day 15:");
     //day15::solve();
-    println!("Day 16:");
-    day16::solve();
+    //println!("Day 16:");
+    //day16::solve();
+    println!("Day 17:");
+    day17::solve();
 }
