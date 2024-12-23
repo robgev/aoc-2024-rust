@@ -18,6 +18,7 @@ mod day16;
 mod day17;
 mod day18;
 mod day19;
+mod day20;
 mod utils;
 
 fn main() {
@@ -60,6 +61,8 @@ fn main() {
     //day17::solve();
     //println!("Day 18:");
     //day18::solve();
-    println!("Day 19:");
-    day19::solve();
+    //println!("Day 19:");
+    //day19::solve();
+    println!("Day 20:");
+    day20::solve();
 }
